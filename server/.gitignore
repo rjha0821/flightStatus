@@ -1,23 +1,18 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node.js
+node_modules/
+npm-debug.log
+.env
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# React
+client/build/
+client/node_modules/
+client/.env
+client/.cache
 
-# testing
-/coverage
+# Kafka and appWrite
+/data/
+logs/
 
-# production
-/build
-
-# misc
+# OS-specific
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+Thumbs.db
