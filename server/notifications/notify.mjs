@@ -11,9 +11,9 @@ const sendNotification = (message) => {
         if (err) {
             console.error('Failed to send notification:', err);
         } else {
-            console.log('Notification sent:', data);
+            console.log('Notification sent:', data); 
         }
     });
 };
 
-export default { sendNotification };
+export { sendNotification };
